@@ -1,0 +1,11 @@
+# Constants File (Grazing Management model)
+parnames = {1:'P', 2:'eta', 3:'kappa',11:'L',12:'k',20:'dummy'}
+unames = {1:'B', 2:'W',3:'Bx', 4:'Wx'}
+NDIM = 4,   IPS = 2, IRS = 0, ILP = 1
+ICP  = ['P']
+NTST = 800, NCOL = 4, IAD = 3, ISP = 1, ISW = 1, IPLT = 5, NBC = 4, NINT = 0
+NMX = 5000, RL0 = .0, RL1 = 500.0, A0 = -500.0, A1 = 500.0  
+NPR = 2500, MXBF =  10, IID = 2, ITMX = 24, ITNW = 15, NWTN = 9, JAC = 0
+EPSL = 1e-07, EPSU = 1e-07, EPSS = 1e-05
+DS =  0.00001, DSMIN = 0.00000001, DSMAX = 0.001, IADS = 1
+THL =  {11: 0.0} , THU =  {}

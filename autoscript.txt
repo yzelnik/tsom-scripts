@@ -1,0 +1,7 @@
+
+unf= run(e='GrzMng',c='GrzMng',NMX=5000,NPR=500,DS=1e-4,DSMAX=0.021,IPS=1,ISP=2,ICP=['P','dummy','L'])
+tur=run(unf('HB1'),IPS=2,ISP=1,NMX=3000,NPR=10)
+
+save(unf,'GrzMng_unf');
+save(tur,'GrzMng_tur');
+
